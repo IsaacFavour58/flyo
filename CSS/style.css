@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  
+}
+
+.navlinks{
+    display: flex;
+    gap: 50px;
+}
+
+.navlinks a{
+    color: hsl(243, 87%, 12%);
+
+
+}
+#nav img{
+    width: 60%;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    margin-top: 30px;
+}
+
+.herotext{
+    width: 40%;
+}
+
+#hero img{
+    width: 40%;
+}
+
+#hero h1{
+   font-size: 30px;
+}
+
+.herotextsp{
+    margin: 16px 0px;
+}
+.inputbutton{
+    background-color: blue;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+.text{
+    padding:7px 20px ;
+}
+#hero2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+    margin-top: 150px;
+    background: url(/IMAGES/bg-curve-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.backgroundimg img{
+    width: 90%;
+}
+.backgroundimg{
+    padding-left: 12rem;
+}
+
+.sectiontext{
+    width: 50%;
+}
+
+
+#hero2 h1{
+    font-size: 40px;
+}
+#section3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    /* margin-top: 50px; */
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+
+.section3{
+    width: 40%;
+    /* margin-top: 30px; */
+}
+
+.inputtext{
+    width: 50%;
+}
+
+.inputbutton{
+    background-color: hsl(224, 93%, 58%);
+}
+
+.image1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    place-items: center;
+}
+.box{
+   background-color: white;
+   border-radius: 5px;
+   width: 60%;
+   padding: 20px;
+   box-shadow: 3px 3px 3px rgb(190, 188, 214);
+   margin-top: 2rem;
+}
+.box p{
+    font-size: 13px;
+}
+.image1 img{
+    border-radius: 50%;
+    width:10%;
+}
+
+.image2{
+    width: 40%;
+}
+
+.text2{
+    width: 70%;
+    font-size: 10px;
+}
+
+#bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: hsl(243, 87%, 12%);
+    /* margin: 80px; */
+}
+
+
+.inputtext{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input{
+    display: flex;
+    gap: 15px;
+}
+.pln{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.email{
+   display: flex;
+   align-items: 10px;
+   gap: 10px; 
+}
+
+.bottomlinks{
+    display: flex;
+    gap: 15rem;
+}
+.bottomlinks a{
+    color: white;
+}
+.link1, .link2{
+    display: flex;
+    flex-direction:column ;
+}
+.sociallinks{
+    padding-right: 80px;
+    padding-bottom: 60px;
+}
+@media screen and (max-width:992px){
+    #section3, #hero2, #hero, #nav{
+        padding: 40px;
+    }
+
+    .image2{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:768px){
+#hero img{
+    width: 60%;
+}
+.input{
+    flex-direction: column;
+}
+.bottomlinks{
+    gap: 7rem;
+}
+
+}
+@media screen and (max-width:576px) {
+    #hero {
+        flex-direction: column;
+    }
+    .herotext{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    #hero img{
+        width: 80%;
+    }
+#hero2 {
+    flex-direction: column;
+}
+  .sectiontext{
+    width: 80%;
+  } 
+  .image2{
+    width: 80%;
+    padding-top: 30px;
+  }
+  #section3{
+    flex-direction: column;
+  }
+  .inputtext{
+    padding-left: 70px;
+  }
+    #bottom{
+        font-size: 15px;
+    }
+  .bottomlinks{
+    gap: 5rem;
+  }
+  .fylologo{
+    width: 50%;
+  }
+  .link1{
+    padding-left: 50px;
+  }
+  
+  .sociallinks{
+    display: flex;
+    padding-left: 20px;
+    gap: 20px;
+    
+  }
+  .sociallinks{
+    padding-right: 80px;
+    padding-bottom: 80px;
+  }
+}
