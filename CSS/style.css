@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
 }
@@ -265,4 +269,43 @@ a{
     padding-right: 80px;
     padding-bottom: 80px;
   }
+ 
+}
+@media  screen  and (max-width:480px){
+
+    .navlinks{
+        gap: 20px;
+    }
+    .inputtext{
+        width: 80%;
+        padding-left: 10px;
+
+    }
+    #hero2 h1{
+        font-size: 30px;
+    }
+    #bottom{
+        padding-top: 20px;
+    }
+    .bottomlinks {
+        gap: 3rem;
+    }
+    .sociallinks{
+        flex-direction: column;
+        padding-top: 80px;
+    }
+    .box {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:375px){
+    #nav img {
+        width: 100%;
+     }
+   
+
+    #bottom {
+    font-size: 10px;
+}
 }
