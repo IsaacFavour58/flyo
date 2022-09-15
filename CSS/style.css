@@ -176,10 +176,16 @@ a{
     align-items: center;
     gap: 10px;
 }
+.pln p{
+    color: white;
+}
 .email{
    display: flex;
    align-items: 10px;
    gap: 10px; 
+}
+.email p{
+    color: white;
 }
 
 .bottomlinks{
@@ -196,7 +202,12 @@ a{
 .sociallinks{
     padding-right: 80px;
     padding-bottom: 60px;
+    
 }
+.sociallinks a{
+color: white;
+}
+
 @media screen and (max-width:992px){
     #section3, #hero2, #hero, #nav{
         padding: 40px;
@@ -291,8 +302,8 @@ a{
         gap: 3rem;
     }
     .sociallinks{
-        flex-direction: column;
         padding-top: 80px;
+        width: 80%;
     }
     .box {
         width: 95%;
@@ -302,10 +313,51 @@ a{
 @media screen and (max-width:375px){
     #nav img {
         width: 100%;
+        margin: none;
+        padding: none;
      }
-   
-
+   .navlinks{
+    gap: 10px;
+   }
+#hero{
+    align-items: flex-start;
+    width: 120%;
+}
+#hero2{
+    align-items: flex-start;
+    width: 120%;
+    margin-top: 60px;
+}
+#section3{
+    align-items: flex-start;
+    width: 120%;
+}
     #bottom {
-    font-size: 10px;
+    font-size: 15px;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.bottomlinks{
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.bottom2{
+    padding-left: 5px;
+    
+}
+.link1{
+    padding-left: 5px;
+    padding-top: 30px;
+}
+.fylologo{
+    width: 100%;
+}
+.sociallinks{
+    padding: 30px;
+    display: flex;
+    gap: 5rem;
+    width: 80%;
 }
 }
