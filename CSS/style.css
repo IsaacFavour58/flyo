@@ -209,6 +209,12 @@ a{
 color: white;
 }
 
+.toogle{
+    display: none;
+}
+
+
+
 @media screen and (max-width:992px){
     #section3, #hero2, #hero, #nav{
         padding: 40px;
@@ -230,7 +236,13 @@ color: white;
     gap: 7rem;
 }
 
+.menuopen{
+    display: none;
 }
+
+}
+
+
 @media screen and (max-width:576px) {
     #hero {
         flex-direction: column;
@@ -313,7 +325,39 @@ color: white;
     gap: 5rem;
     width: 80%;
 }
+
+
+
  
+}
+
+
+@media screen and (max-width:520px){
+
+    .ri-close-fill{
+        display: none;
+    }
+
+    .navlinks{
+        position: absolute;
+        width: 70%;
+        background-color: aqua;
+        z-index: 1;
+        top: -35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        transition: .5s;
+        padding: 20px;
+        box-shadow: 5px 5px 40px grey;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .toogle{
+        display: block;
+    }
+    
 }
 @media  screen  and (max-width:480px){
 
