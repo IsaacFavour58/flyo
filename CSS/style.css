@@ -343,7 +343,7 @@ color: white;
         width: 70%;
         background-color: aqua;
         z-index: 1;
-        top: -35%;
+        top: -15%;
         left: 50%;
         transform: translate(-50%, -50%);
         flex-direction: column;
